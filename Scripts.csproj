@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="System" />
+    <Using Include="System.IO" />
+    <Using Include="System.Net" />
+    <Using Include="System.Linq" />
+    <Using Include="System.Text" />
+    <Using Include="System.Text.RegularExpressions" />
+    <Using Include="System.Collections.Generic" />
+    <Using Include="GrindFest.BotApi" />
+    <Using Include="GrindFest" />
+    <Using Include="UnityEngine" />
+    <Using Include="UnityEngine.IMGUIModule" />
+    <Using Include="UnityEngine.InputLegacyModule" />
+    <Using Include="UnityEngine.AIModule" />
+    <Using Include="UnityEngine.PhysicsModule" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="netstandard" />
+    <Reference Include="BotApi">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\GrindFest.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files (x86)/Steam/steamapps/common/GrindFest/GrindFest_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
